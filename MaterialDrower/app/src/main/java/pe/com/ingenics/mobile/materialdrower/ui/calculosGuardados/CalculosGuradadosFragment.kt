@@ -10,15 +10,15 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import pe.com.ingenics.mobile.materialdrower.R
 
-class SlideshowFragment : Fragment() {
+class CalculosGuradadosFragment : Fragment() {
 
-    private lateinit var slideshowViewModel: SlideshowViewModel
+    private lateinit var calculosGuradadosViewModel: CalculosGuradadosViewModel
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        slideshowViewModel = ViewModelProviders.of(this).get(SlideshowViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_slideshow, container, false)
+        calculosGuradadosViewModel = ViewModelProviders.of(this).get(CalculosGuradadosViewModel::class.java)
+        val root = inflater.inflate(R.layout.fragment_calculosguardados, container, false)
         val textView: TextView = root.findViewById(R.id.text_slideshow)
-        slideshowViewModel.text.observe(viewLifecycleOwner, Observer {
+        calculosGuradadosViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
         return root

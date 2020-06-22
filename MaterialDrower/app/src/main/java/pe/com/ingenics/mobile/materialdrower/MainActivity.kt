@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
 
         //, R.id.nav_slideshow  nav_prueba
 
-        appBarConfiguration = AppBarConfiguration(setOf(R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow, R.id.nav_notificaciones), drawerLayout)
+        appBarConfiguration = AppBarConfiguration(setOf(R.id.nav_inicio, R.id.nav_favoritos, R.id.nav_calculosguardados, R.id.nav_notificaciones), drawerLayout)
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 

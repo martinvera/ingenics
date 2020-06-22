@@ -1,4 +1,4 @@
-package pe.com.ingenics.mobile.materialdrower.ui.notificaciones
+package pe.com.ingenics.mobile.materialdrower.ui.ingenicscivil
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -14,7 +14,7 @@ import pe.com.ingenics.mobile.materialdrower.R
 //private const val ARG_PARAM2 = "param2"
 
 
-class NotificacionesFragment : Fragment() {
+class IngenicsCivilFragment : Fragment() {
     // TODO: Rename and change types of parameters
    // private var param1: String? = null
    // private var param2: String? = null
@@ -31,9 +31,9 @@ class NotificacionesFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        val root=inflater.inflate(R.layout.fragment_notificaciones, container, false)
-        val textView: TextView = root.findViewById(R.id.text_notificaciones)
-        textView.text="This is notificaciones Fragment"
+        val root=inflater.inflate(R.layout.fragment_ingenicscivil, container, false)
+        val textView: TextView = root.findViewById(R.id.text_ingenicsCivil)
+        textView.text="This is ingenics civil Fragment"
         return root
     }
 /*

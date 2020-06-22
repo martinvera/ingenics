@@ -10,20 +10,20 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import pe.com.ingenics.mobile.materialdrower.R
 
-class HomeFragment : Fragment() {
+class InicioFragment : Fragment() {
 
-    private lateinit var homeViewModel: HomeViewModel
+    private lateinit var inicioViewModel: InicioViewModel
 
     override fun onCreateView(
             inflater: LayoutInflater,
             container: ViewGroup?,
             savedInstanceState: Bundle?
     ): View? {
-        homeViewModel =
-                ViewModelProviders.of(this).get(HomeViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_home, container, false)
-        val textView: TextView = root.findViewById(R.id.text_home)
-        homeViewModel.text.observe(viewLifecycleOwner, Observer {
+        inicioViewModel =
+                ViewModelProviders.of(this).get(InicioViewModel::class.java)
+        val root = inflater.inflate(R.layout.fragment_inicio, container, false)
+        val textView: TextView = root.findViewById(R.id.text_inicio)
+        inicioViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
         return root

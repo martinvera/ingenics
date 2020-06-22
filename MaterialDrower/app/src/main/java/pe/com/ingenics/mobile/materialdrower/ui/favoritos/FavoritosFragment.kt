@@ -10,9 +10,9 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import pe.com.ingenics.mobile.materialdrower.R
 
-class GalleryFragment : Fragment() {
+class FavoritosFragment : Fragment() {
 
-    private lateinit var galleryViewModel: GalleryViewModel
+    private lateinit var favoritosViewModel: FavoritosViewModel
 
     /*
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
@@ -22,12 +22,12 @@ class GalleryFragment : Fragment() {
      */
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        galleryViewModel = ViewModelProviders.of(this).get(GalleryViewModel::class.java)
+        favoritosViewModel = ViewModelProviders.of(this).get(FavoritosViewModel::class.java)
 
-        val root = inflater.inflate(R.layout.fragment_gallery, container, false)
+        val root = inflater.inflate(R.layout.fragment_favoritos, container, false)
 
         val textView: TextView = root.findViewById(R.id.text_gallery)
-        galleryViewModel.text.observe(viewLifecycleOwner, Observer {
+        favoritosViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
         return root
