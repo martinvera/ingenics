@@ -1,4 +1,4 @@
-package pe.com.ingenics.mobile.materialdrower.ui.sugerencias
+package pe.com.ingenics.mobile.materialdrower.ui.contacto
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -14,7 +14,7 @@ import pe.com.ingenics.mobile.materialdrower.R
 //private const val ARG_PARAM2 = "param2"
 
 
-class SugerenciasFragment : Fragment() {
+class ContactoFragment : Fragment() {
     // TODO: Rename and change types of parameters
    // private var param1: String? = null
    // private var param2: String? = null
@@ -31,9 +31,9 @@ class SugerenciasFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        val root=inflater.inflate(R.layout.fragment_sugerencias, container, false)
-        val textView: TextView = root.findViewById(R.id.text_sugerencias)
-        textView.text="This is sugerencia Fragment"
+        val root=inflater.inflate(R.layout.fragment_contacto, container, false)
+        val textView: TextView = root.findViewById(R.id.text_contacto)
+        textView.text="This is contacto  Fragment"
         return root
     }
 /*

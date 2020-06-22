@@ -10,22 +10,39 @@
         android:name="pe.com.ingenics.mobile.materialdrower.ui.inicio.InicioFragment"
         android:label="@string/menu_inicio"
         tools:layout="@layout/fragment_inicio" />
-
     <fragment
         android:id="@+id/nav_favoritos"
         android:name="pe.com.ingenics.mobile.materialdrower.ui.favoritos.FavoritosFragment"
         android:label="@string/menu_favoritos"
         tools:layout="@layout/fragment_favoritos" />
-
     <fragment
         android:id="@+id/nav_calculosguardados"
         android:name="pe.com.ingenics.mobile.materialdrower.ui.calculosGuardados.CalculosGuradadosFragment"
         android:label="@string/menu_calculos_guardados"
         tools:layout="@layout/fragment_calculosguardados" />
-
     <fragment
         android:id="@+id/nav_notificaciones"
         android:name="pe.com.ingenics.mobile.materialdrower.ui.notificaciones.NotificacionesFragment"
         android:label="@string/menu_notificaciones"
         tools:layout="@layout/fragment_notificaciones" />
+    <fragment
+        android:id="@+id/nav_sugerencias"
+        android:name="pe.com.ingenics.mobile.materialdrower.ui.sugerencias.SugerenciasFragment"
+        android:label="@string/menu_sugerencias"
+        tools:layout="@layout/fragment_sugerencias" />
+    <fragment
+        android:id="@+id/nav_ingenicscivil"
+        android:name="pe.com.ingenics.mobile.materialdrower.ui.ingenicscivil.IngenicsCivilFragment"
+        android:label="@string/menu_ingenics_civil"
+        tools:layout="@layout/fragment_ingenicscivil" />
+    <fragment
+        android:id="@+id/nav_ingenics"
+        android:name="pe.com.ingenics.mobile.materialdrower.ui.ingenics.IngenicsFragment"
+        android:label="@string/menu_ingenics_civil"
+        tools:layout="@layout/fragment_ingenics" />
+    <fragment
+        android:id="@+id/nav_contacto"
+        android:name="pe.com.ingenics.mobile.materialdrower.ui.contacto.ContactoFragment"
+        android:label="@string/menu_contacto"
+        tools:layout="@layout/fragment_contacto" />
 </navigation>

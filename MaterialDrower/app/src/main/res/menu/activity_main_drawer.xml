@@ -16,28 +16,24 @@
             android:id="@+id/nav_calculosguardados"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_calculos_guardados" />
-
-
-
-
         <item
             android:id="@+id/nav_notificaciones"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_notificaciones" />
         <item
-            android:id="@+id/nav_slideshow3"
+            android:id="@+id/nav_sugerencias"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_sugerencias" />
         <item
-            android:id="@+id/nav_slideshow4"
+            android:id="@+id/nav_ingenicscivil"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_ingenics_civil" />
         <item
-            android:id="@+id/nav_slideshow5"
+            android:id="@+id/nav_ingenics"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_ingenics" />
         <item
-            android:id="@+id/nav_slideshow6"
+            android:id="@+id/nav_contacto"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_contacto" />
 
