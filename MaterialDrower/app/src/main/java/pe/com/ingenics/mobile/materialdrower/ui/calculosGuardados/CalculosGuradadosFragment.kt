@@ -17,7 +17,7 @@ class CalculosGuradadosFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         calculosGuradadosViewModel = ViewModelProviders.of(this).get(CalculosGuradadosViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_calculosguardados, container, false)
-        val textView: TextView = root.findViewById(R.id.text_slideshow)
+        val textView: TextView = root.findViewById(R.id.text_calculosGuardados)
         calculosGuradadosViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })

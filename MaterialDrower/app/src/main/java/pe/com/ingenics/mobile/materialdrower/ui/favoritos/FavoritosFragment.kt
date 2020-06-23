@@ -26,7 +26,7 @@ class FavoritosFragment : Fragment() {
 
         val root = inflater.inflate(R.layout.fragment_favoritos, container, false)
 
-        val textView: TextView = root.findViewById(R.id.text_gallery)
+        val textView: TextView = root.findViewById(R.id.text_favoritos)
         favoritosViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
