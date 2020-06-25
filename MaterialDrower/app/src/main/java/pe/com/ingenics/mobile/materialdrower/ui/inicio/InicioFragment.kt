@@ -22,9 +22,9 @@ class InicioFragment : Fragment() {
         inicioViewModel =
                 ViewModelProviders.of(this).get(InicioViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_inicio, container, false)
-        val textView: TextView = root.findViewById(R.id.text_inicio)
+       // val textView: TextView = root.findViewById(R.id.text_inicio)
         inicioViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
+           // textView.text = it
         })
         return root
     }

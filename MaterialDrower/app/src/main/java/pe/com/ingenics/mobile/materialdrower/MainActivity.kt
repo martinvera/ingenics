@@ -31,11 +31,13 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
 
         // obtiene el objeto de id = "fab" que esta en res/layout/app_bar_main.xml
-        val fab: FloatingActionButton = findViewById(R.id.fab)
+     /*   val fab: FloatingActionButton = findViewById(R.id.fab)
         fab.setOnClickListener { view ->     //muestra ele mensaje en la parte inferior
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show()
         }
+
+      */
 
         // obtiene el objeto de id = "drawer_layout" que esta en res/layout/activity_main.xml
         val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)

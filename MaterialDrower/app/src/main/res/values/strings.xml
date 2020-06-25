@@ -7,13 +7,13 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Configuraciones</string>
 
-    <string name="menu_inicio">Inicio</string>
+    <string name="menu_inicio">Ingenics CIVIL</string>
     <string name="menu_favoritos">Favoritos</string>
     <string name="menu_calculos_guardados">Cálculos Guardados</string>
     <string name="menu_notificaciones">Notificaciones</string>
     <string name="menu_sugerencias">Sugerencias</string>
-    <string name="menu_ingenics_civil">Ingenics CIVIL</string>
-    <string name="menu_ingenics">Ingenics</string>
+    <string name="menu_ingenics_civil">Acerca de la app</string>
+    <string name="menu_ingenics">Acerca de nosotros</string>
     <string name="menu_contacto">Contacto</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
