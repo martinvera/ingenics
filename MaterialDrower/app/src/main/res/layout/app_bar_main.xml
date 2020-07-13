@@ -17,7 +17,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="#3478C9"
+            android:background="#EFEEF1"
             android:alpha="@integer/config_navAnimTime"
             app:popupTheme="@style/AppTheme.NoActionBar" />
 

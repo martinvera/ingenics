@@ -8,6 +8,7 @@
     <string name="action_settings">Configuraciones</string>
 
     <string name="menu_inicio">Ingenics CIVIL</string>
+    <string name="menu_inicio2"></string>
     <string name="menu_favoritos">Favoritos</string>
     <string name="menu_calculos_guardados">Cálculos Guardados</string>
     <string name="menu_notificaciones">Notificaciones</string>
